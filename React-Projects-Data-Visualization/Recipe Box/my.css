@@ -1,0 +1,16 @@
+body{
+  margin: auto;
+  width: 80%;
+}
+
+.random_name{
+  width: 30em;
+  text-align: left;
+}
+
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}

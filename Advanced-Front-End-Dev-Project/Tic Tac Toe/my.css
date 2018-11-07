@@ -1,0 +1,13 @@
+*{
+  width:50%;
+  margin:auto;
+}
+
+table td{
+  background:#edc;
+  //background:#abd;
+}
+
+button{
+  width: 4em;
+}

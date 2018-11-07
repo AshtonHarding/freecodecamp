@@ -1,0 +1,57 @@
+*{
+  background: #888;
+  color: #111;
+}
+
+button{
+  width: 4em;
+  height: 4em;
+  margin: 1em;
+  float: center;
+}
+
+#green{
+  background: #0a0; /* #0f0 */
+}
+#red{
+  background: #a00; /* #f00 */
+}
+#yellow{
+  background: #aa0; /* #ff0 */
+}
+#blue{
+  background: #00a; /* #00f */
+}
+
+
+#begin{
+  width: 3em;
+  height: 3em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 4.7em; /* This isn't arbitrary. */
+  float: center;
+  background: #0c0; 
+}
+
+#turnOnOff{
+  width: 2.5em;
+  height: 2em;
+  margin: 0em;
+  float: center;
+  background: #c00;
+}
+#strict{
+  width: 2.5em;
+  height: 2em;
+  margin: 0em;
+  float: center;
+  background: #c00;
+}
+#restart{
+  width: 4em;
+  height: 2em;
+  margin: 0em;
+  float: center;
+  background: #cef;
+}

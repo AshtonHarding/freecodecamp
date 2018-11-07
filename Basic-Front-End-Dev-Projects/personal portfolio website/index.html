@@ -1,0 +1,161 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+<!-- js goes below. -->
+<script>
+  // On click, scroll down to the anchor.
+  // Also, make the button do something.
+  $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top
+      }, 1337);
+      return false;
+  });
+  
+}
+</script>
+<!-- js goes above.-->
+
+<style>
+  a:link {color: #668574;}
+  a:visited {color: #668574;}
+  a:hover {color: #668574;}
+  a:active {color: #668574;}
+  body{
+    background-color:#191919;
+  }
+</style>
+
+<div class="container-fluid" style="font-family:monospace; color:#749583;">
+  <!-- [Nav-Bar] -->
+  <div class="row" style="background-color:#444;">
+    <div class="col-md-4">
+      <h3 style="color:#8faa9b; margin-top: 0.5em; margin-bottom: 0.5em;">
+        <a name="home">Kashire</a>
+      </h3>
+    </div>
+    <div class="col-md-4"><!-- empty --></div>
+    <div class="col-md-4" style="margin-top: 0.5em; margin-bottom: 0.5em;">
+      <a href="#about" id="anchor0">
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+          [ About ]
+        </button>
+      </a>
+      <a href="#portfolio" id="anchor1">
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+        [ Portfolio ]
+      </button></a>
+      
+      <a href="#contact" id="anchor3">
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+          [ Contact ]
+        </button>
+      </a>
+    </div>
+  </div>
+  <!-- [/Nav-Bar] -->
+
+  <!-- [Home] -->
+  <div style="width:50%; margin:auto; text-align:center; background-color:#333;">
+    <div class="row">
+      <div class="col-md-8"> 
+        <p style="display:inline-block; margin-top: 1em;">
+          Full Stack Developer and Automation Programmer, with experience
+          with webscraping, technical SEO, WordPress, and moderation experience.
+          <hr style="width:85%;margin-top:-5px;">
+
+        <button type="button" class="btn" style="border-radius:15%;background-color:#465355;outline-color: transparent; ">
+          <a href="https://twitter.com/ashton_harding" target="_blank">
+            <i class="fa fa-twitter-square"> Twitter</i>
+          </a>
+        </button>
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+          <a href="https://github.com/AshtonHarding/" target="_blank">
+            <i class="fa fa-github-alt"> Github</i>
+          </a>
+        </button>
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+          <a href="https://www.linkedin.com/in/douglas-harding-4158b072/" target="_blank">
+            <i class="fa fa-linkedin-square"> LinkedIn</i>
+          </a>
+          </button>
+        
+        <button type="button" class="btn" style="border-radius:15%; background-color:#465355;">
+          <a href="https://kashi.re/" target="_blank">
+            <i class="fa fa-search"> Website</i>
+          </a>
+        </button>
+        
+          <hr style="width:85%;">
+          Web Programmer && SysAdmin && Moderator <i class="fa fa-coffee"></i>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive img-circle" style="float:left; margin-top:1em; width:75%; display:inline-block; border-radius:50%;" src="https://pbs.twimg.com/profile_images/547409932987801600/34LsWyeM.png" alt="Picture of me">
+      </div>
+  </div>
+  <!-- [/Home] -->
+
+  <!-- [Portfolio] -->
+  <div class="row" style="background-color:#444; margin:auto; text-align:center;">
+    <div class="col-md-12" style="margin-top:15px;">
+      <h2 style="color:#8faa9b;"><a name="portfolio" id="portfolio">[ Portfolio ]</a></h2>
+      <hr>
+      <div class="row" style="margin-bottom:15px;">
+        <div class="col-md-6">
+          <img src="http://placehold.it/250x250?text=Example+0">
+          <p>[ <em>Example #0</em> ]</p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://placehold.it/250x250?text=Example+1">
+          <p>[ <em>Example #1</em> ]</p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://placehold.it/250x250?text=Example+2">
+          <p>[ <em>Example #2</em> ]</p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://placehold.it/250x250?text=Example+3">
+          <p>[ <em>Example #3</em> ]</p>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- [/Portfolio] -->
+  <!-- [Contact-Me] -->
+  <div class="row" style="background-color:#333; margin:auto; text-align:center;">
+    <div class="col-md-12" style="margin-top:15px;">
+      <h2 style="color:#8faa9b;"><a name="contact" id="contact">[ Contact Me ]</a></h3>
+    <div class="row" style="margin-bottom:15px;">
+      <div class="col-md-6">
+        <form>
+          <input class="form-control" style="width:90%;background-color:#191919;" type="name" placeholder="Name">
+          <input class="form-control" style="width:90%;background-color:#191919;" type="email" placeholder="Email">
+          <textarea class="form-control" style="width:90%;background-color:#191919;" placeholder="Message" rows="5"></textarea>
+          <button type="submit" class="btn" style="margin-top:5px;background-color:#465355; float:left; outline:none; border:none;"><i class="fa fa-paper-plane"> Send</i></button>
+          
+        </form>
+      </div>
+      <div class="col-md-6">
+        Want to spam me?<sup><sup>*</sup></sup> Looking to hire me?
+        Send me a PM via the form on the left and I will get back to you.
+        Alternative, find me on irc with the handle "kashire" on irc.lainchan.org
+        or irc.rizon.net. 
+
+        <hr>
+        
+        <sup>* please don't spam me.</sup>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- [/Contact-Me] -->
+  </div>
+  <!-- [Footer] -->
+    <div class="row" style="background-color:#444; height:3em; text-align:center;">
+    <div class="col-md-4"><!-- empty --></div>
+    <div class="col-md-4" style="margin-top:15px;">
+      Ashton Harding <i class="fa fa-copyright"> 2017</i>
+    </div>
+    <div class="col-md-4"><!-- empty --></div>
+  </div>
+  <!-- [/Footer] -->

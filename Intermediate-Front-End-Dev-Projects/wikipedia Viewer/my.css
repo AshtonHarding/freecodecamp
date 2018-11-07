@@ -1,0 +1,8 @@
+*{
+  background: #000;
+  color: #abc;
+}
+
+table, td{
+  border: 1px solid green;
+}
